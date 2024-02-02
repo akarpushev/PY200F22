@@ -11,10 +11,10 @@ class TestSum(unittest.TestCase):
         self.assertEqual(add(1, 2), 3)  # верно
 
     def test_add2(self):
-        self.assertEqual(add(-1, 1), 4)  # ошибка
+        self.assertEqual(add(-1, 1), 4)  # ошибка, неправильно написано
 
     def test_add3(self):
-        self.assertEqual(add(-1, -1), -8)  # ошибка
+        self.assertEqual(add(-1, -1), -8)  # ошибка, неправильно написано
 
     def test_add4(self):
         self.assertEqual(add(1, 2), 3) # верно
